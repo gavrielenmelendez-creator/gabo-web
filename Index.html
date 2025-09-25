@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Welcome Page</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      height: 100vh;
+      background: linear-gradient(135deg, #000000, #1a1a1a, #FFD700, #000000);
+      background-size: 400% 400%;
+      animation: gradientShift 12s ease infinite;
+      font-family: Arial, sans-serif;
+      color: gold;
+      overflow: hidden;
+      text-align: center;
+      position: relative;
+    }
+
+    @keyframes gradientShift {
+      0% { background-position: 0% 50%; }
+      50% { background-position: 100% 50%; }
+      100% { background-position: 0% 50%; }
+    }
+
+    h1 {
+      font-size: 3em;
+      margin-bottom: 20px;
+      text-shadow: 0 0 10px gold, 0 0 20px #ffd700;
+      z-index: 1;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 14px 30px;
+      font-size: 1.2em;
+      background: gold;
+      color: black;
+      border: none;
+      border-radius: 30px;
+      text-decoration: none;
+      font-weight: bold;
+      cursor: pointer;
+      box-shadow: 0 0 10px gold, 0 0 20px #ffcc00;
+      transition: transform 0.3s, background 0.3s;
+      z-index: 1;
+    }
+    .btn:hover {
+      background: #ffcc00;
+      transform: scale(1.1);
+    }
+
+    .sparkle {
+      position: absolute;
+      width: 3px;
+      height: 3px;
+      background: gold;
+      border-radius: 50%;
+      opacity: 0.8;
+      animation: twinkle 3s infinite ease-in-out;
+    }
+
+    @keyframes twinkle {
+      0%, 100% { opacity: 0.2; transform: scale(0.5); }
+      50% { opacity: 1; transform: scale(1.5); }
+    }
+  </style>
+</head>
+<body>
+  <h1>Welcome to My Website</h1>
+  <a href="second.html" class="btn">Explore</a>
+
+  <div class="sparkle" style="top:10%; left:20%; animation-delay:0s;"></div>
+  <div class="sparkle" style="top:30%; left:70%; animation-delay:1s;"></div>
+  <div class="sparkle" style="top:60%; left:40%; animation-delay:2s;"></div>
+  <div class="sparkle" style="top:80%; left:80%; animation-delay:1.5s;"></div>
+  <div class="sparkle" style="top:50%; left:10%; animation-delay:0.5s;"></div>
+</body>
+</html>

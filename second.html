@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>STEM Strand — ESTI</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      min-height: 100vh;
+      padding: 40px;
+      background: linear-gradient(135deg, #000000, #1a1a1a, #FFD700, #000000);
+      background-size: 400% 400%;
+      animation: gradientShift 12s ease infinite;
+      font-family: Arial, sans-serif;
+      color: gold;
+      line-height: 1.6;
+      overflow-x: hidden;
+    }
+
+    @keyframes gradientShift {
+      0% { background-position: 0% 50%; }
+      50% { background-position: 100% 50%; }
+      100% { background-position: 0% 50%; }
+    }
+
+    h1 {
+      text-align: center;
+      font-size: 3em;
+      margin-bottom: 30px;
+      text-shadow: 0 0 10px gold, 0 0 20px #ffd700;
+    }
+
+    h2 {
+      text-align: center;
+      font-size: 2em;
+      margin: 20px 0;
+      text-shadow: 0 0 6px gold, 0 0 12px #ffd700;
+    }
+
+    .section {
+      background: rgba(0, 0, 0, 0.6);
+      border: 2px solid gold;
+      border-radius: 15px;
+      padding: 20px;
+      margin: 20px auto;
+      max-width: 900px;
+      box-shadow: 0 0 15px gold, 0 0 25px #ffd700 inset;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+      gap: 20px;
+      justify-items: center;
+      margin-top: 20px;
+    }
+
+    .card {
+      background: rgba(255, 215, 0, 0.1);
+      border: 1px solid gold;
+      border-radius: 12px;
+      padding: 10px;
+      text-align: center;
+      box-shadow: 0 0 8px gold;
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+
+    .card:hover {
+      transform: scale(1.05);
+      box-shadow: 0 0 20px gold, 0 0 30px #ffcc00;
+    }
+
+    .card img {
+      width: 100%;
+      height: 150px;
+      object-fit: cover;
+      border-radius: 10px;
+      margin-bottom: 10px;
+      border: 2px solid gold;
+    }
+
+    .back-btn {
+      display: block;
+      margin: 30px auto;
+      padding: 12px 25px;
+      background: gold;
+      color: black;
+      border: none;
+      border-radius: 25px;
+      text-decoration: none;
+      font-weight: bold;
+      box-shadow: 0 0 10px gold, 0 0 20px #ffcc00;
+      transition: transform 0.3s;
+      text-align: center;
+      width: 200px;
+    }
+
+    .back-btn:hover {
+      transform: scale(1.1);
+      background: #ffcc00;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>STEM Grade 11</h1>
+  <h2>Educational Systems Technological Institute</h2>
+
+
+  <div class="section">
+    <h2>Our Classmates</h2>
+    <p style="text-align:center;">Meet the students of STEM Grade 11 at Educational Systems Technological Institute.</p>
+    <div class="grid">
+      <div class="card"><img src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png" alt=""><p>Bern Dayle Constantino</p></div>
+      <div class="card"><img src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png" alt=""><p>Samuel Ray Custodio</p></div>
+      <div class="card"><img src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png" alt=""><p>Nicka Shylock Almarez</p></div>
+      <div class="card"><img src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png" alt=""><p>Antonette De Jesus</p></div>
+      <div class="card"><img src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png" alt=""><p>Aldrien Lazarte</p></div>
+      <div class="card"><img src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png" alt=""><p>Elyza Dumaran</p></div>
+      <div class="card"><img src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png" alt=""><p>Jiruz Nikolai Libutan</p></div>
+      <div class="card"><img src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png" alt=""><p>Princess Graziella Kermen</p></div>
+      <div class="card"><img src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png" alt=""><p>Hans Biel Sean Ligas</p></div>
+      <div class="card"><img src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png" alt=""><p>Klizzette Kaine Latore</p></div>
+      <div class="card"><img src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png" alt=""><p>Geoff Jacob Mangaliman</p></div>
+      <div class="card"><img src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png" alt=""><p>Marie Arvie Mameng</p></div>
+      <div class="card"><img src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png" alt=""><p>KC Gwyneth Mantala</p></div>
+      <div class="card"><img src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png" alt=""><p>Robert Matre</p></div>
+      <div class="card"><img src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png" alt=""><p>Hanna Aizel Marcelino</p></div>
+      <div class="card"><img src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png" alt=""><p>Nikki Eloise Mercado</p></div>
+      <div class="card"><img src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png" alt=""><p>Gavriele Melendez</p></div>
+      <div class="card"><img src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png" alt=""><p>Kyla Moldon</p></div>
+      <div class="card"><img src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png" alt=""><p>John Feiv Montiano</p></div>
+      <div class="card"><img src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png" alt=""><p>Louis Gabriel Montiel</p></div>
+      <div class="card"><img src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png" alt=""><p>Althea Monsanto</p></div>
+      <div class="card"><img src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png" alt=""><p>Mycel Anne Nabos</p></div>
+      <div class="card"><img src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png" alt=""><p>John Daniel Panganiban</p></div>
+      <div class="card"><img src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png" alt=""><p>Clifford Rioflorido</p></div>
+      <div class="card"><img src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png" alt=""><p>Maja Angelica Oblipias</p></div>
+      <div class="card"><img src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png" alt=""><p>Camille Opiz</p></div>
+      <div class="card"><img src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png" alt=""><p>Jillian Pardilla</p></div>
+      <div class="card"><img src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png" alt=""><p>Shantel-Ann Ramos</p></div>
+      <div class="card"><img src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png" alt=""><p>Kurt Angelo Salazar</p></div>
+      <div class="card"><img src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png" alt=""><p>Joyce Sadiz</p></div>
+      <div class="card"><img src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png" alt=""><p>Ma. Althea Lorraine Salado</p></div>
+      <div class="card"><img src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png" alt=""><p>Tiffany Lorraine Sales</p></div>
+      <div class="card"><img src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png" alt=""><p>Lovely Sandra Salvacion</p></div>
+      <div class="card"><img src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png" alt=""><p>Trixie Shinylaine Semilla</p></div>
+      <div class="card"><img src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png" alt=""><p>Kesha Cathriz Vitto</p></div>   
+    </div>
+  </div>
+
+  <div class="section">
+    <h2>Class Officers</h2>
+    <div class="grid">
+      <div class="card"><img src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png" alt=""><p class="role">President</p><p>Aldrien Lazarte</p></div>
+      <div class="card"><img src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png" alt=""><p class="role">Vice President</p><p>Samuel Custodio</p></div>
+      <div class="card"><img src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png" alt=""><p class="role">Secretary</p><p>Robert Matre</p></div>
+      <div class="card"><img src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png" alt=""><p class="role">Treasurer</p><p>Nicka Almarez</p></div>
+      <div class="card"><img src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png" alt=""><p class="role">PIO</p><p>Jillian Pardilla & Maja Angelica Oblipias</p></div>
+      <div class="card"><img src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png" alt=""><p class="role">Sergeant at Arms</p><p>Gavriele Melendez & Clifford Rioflorido</p></div>
+      <div class="card"><img src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png" alt=""><p class="role">Project Managers</p><p>Bern Dayle Constantino & Kesha Cathriz Vitto</p></div>
+      <div class="card"><img src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png" alt=""><p class="role">Escort</p><p>Kurt Angelo Salazar</p></div>
+      <div class="card"><img src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png" alt=""><p class="role">Muse</p><p>Klizzette Kaine Latore</p></div>
+      <div class="card"><img src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png" alt=""><p class="role">Auditor</p><p>Shantel Ann Ramos</p></div>
+    </div>
+  </div>
+
+
+    <h2>Our Awards</h2>
+    <div class="grid">
+      <div class="card"><img src="award1.jpg" alt="Award"><p>Best in Science</p></div>
+      <div class="card"><img src="award2.jpg" alt="Award"><p>Math Olympiad Winners</p></div>
+      <div class="card"><img src="award3.jpg" alt="Award"><p>Debate Champions</p></div>
+    </div>
+  </div>
+
+</body>
+</html>
